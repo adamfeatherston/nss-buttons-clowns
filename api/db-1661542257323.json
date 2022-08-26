@@ -1,0 +1,24 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "parentName": "Mommy Dearest",
+      "childName": "Tiny Tim",
+      "numberAttedning": 8,
+      "address": "123 Lost My Way",
+      "partyDate": "2022-08-27",
+      "partyLength": 2
+    }
+  ],
+  "parties": []
+}

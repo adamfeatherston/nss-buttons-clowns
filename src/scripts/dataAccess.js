@@ -1,13 +1,13 @@
-//module for importing and exporting data to/from API and modules.
-
-//delcare varible to store objects
-//3 objects as empty arrays to get data from database.json
-//objects: 1. clowns: (names) 2. requests: (user to input requesting a clown) 3. parties: (user change of information about a request)
 const applicationState = {
     clowns: [],
     requests: [],
     parties: []
 }
+//module for importing and exporting data to/from API and modules.
+
+//delcare varible to store objects
+//3 objects as empty arrays to get data from database.json
+//objects: 1. clowns: (names) 2. requests: (user to input requesting a clown) 3. parties: (user change of information about a request)
 //variable to connect with .json server
 const API = "http://localhost:8088"
 //function to get the clowns from API
